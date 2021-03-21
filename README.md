@@ -3,6 +3,8 @@ USAID works with local health care authorities and partners to support voluntary
 
 The goal of the Intelligent Forecasting Competition is to predict consumption (stock_distributed in the Primary Data Dictionary) for 11 contraceptives across 156 health service delivery sites in the public sector health system in Côte d’Ivoire. The predictions should be made monthly for three months: October 2019, November 2019, and December 2019, using the dataset provided.
 
+USAID Competition - https://competitions4dev.org/forecastingprize
+
 ## Datasets
 There are 5 input data sets shared for the competition:
 
