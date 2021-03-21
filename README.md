@@ -33,6 +33,14 @@ On SKUs were less than 80% of the records have zero demand, Traditional and Mach
 
 On SKUs were more than 80% of the records have zero demand, Traditional algorithms (Naïve Forecasting – Local Model) were implemented.  
 
+List of Models:
+a. Naïve Forecasting (Local Model)
+b. Croston’s Method – Intermittent Forecasting (Local Model)
+c. Catboost Regressor with Tweedie loss function (Global Model)
+d. LightGBM Regressor with Tweedie loss function (Global Model)
+e. Random Forest (Global Model)
+f. XG Boost (Global Model)
+
 ## Evaluation Metric
 The metric that will be used to evaluate the models is the mean absolute scaled error (MASE) of the predictions. The error will be calculated for each prediction in the submission and then averaged across all site level predictions for each contraceptive.
 
